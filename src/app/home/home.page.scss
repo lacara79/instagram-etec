@@ -3,7 +3,7 @@
 ion-title {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
-  text-align: center;
+  // text-align: center;
   text-shadow: 1px 1px 2px #ccc;
 }
 
@@ -14,5 +14,17 @@ ion-title {
   font-size: 12px;
 }
 ion-content {
-  text-align: center;
+  // text-align: center;
+}
+
+ion-avatar{
+  width: 35px;
+  height: 35px;
+  border: 2px solid green;
+  padding: 2px;
+}
+ion-item{
+  margin-left: -15px;
+  height: auto;
+  --background: transparent; /*Regra para usar quando o item estiver por cima de algum elemento colorido ou foto */
 }
